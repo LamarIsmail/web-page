@@ -1,0 +1,110 @@
+.personal h3 {
+    font-size: 50px;
+    text-align: left;
+    color: black;
+}
+
+.stu {
+    font-size: 25px;
+}
+
+.personal{
+    display: grid;
+}
+
+.edu {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-gap: 5px;
+    row-gap: 0px;
+}
+
+.Eitem {
+    grid-column: 1/3;
+    font-size: 25px;
+}
+
+.cert{
+   font-size: 20px; 
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-gap: 5px;
+    row-gap: 0px;
+    z-index: 1;
+}
+
+h4 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.pro{
+    font-size: 25px;
+    display: inline-block;
+}
+
+a {
+   font-style: italic; 
+}
+
+.date {
+    
+    text-align: left;
+    font-style: italic;
+}
+
+.Pitem{
+   font-size: 40px;
+}
+
+.des{
+   font-size: 20px; 
+}
+
+.obj{
+   font-size: 25px;
+   font-style: italic;
+}
+
+#contact{
+   display: grid;
+   grid-template-columns: 0.3fr 0.3fr;
+   grid-template-rows: 0.3fr 0.3fr 0.3fr;
+   position: absolute;
+   z-index: 2;
+   top: 1000px;
+}
+
+#tags{
+    display: grid;
+   grid-template-columns: 0.5fr 2fr;
+   grid-template-rows: 0.3fr 0.3fr 0.3fr;
+   gap-row: 0px;
+   gap-column: 10px;
+}
+
+.aside{
+   grid-row: 1/5;
+   font-size: 20px;
+   background-color: #03c6fc;
+   color : white;
+   text-align: center;
+}
+
+.contactinfo{
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+}
+
+.social{
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+}
